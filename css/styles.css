@@ -1,29 +1,57 @@
+:root {
+  --primary-color: #141516;
+  --secondary-color: #fff;
+  --nav-color: #bdc1c0;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Catamaran', sans-serif;
+}
+
 ul {
   list-style: none;
 }
 
-.navbar {
-  max-width: 1100px;
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 1200px;
   margin: auto;
   padding: 2rem;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar__navlinks {
   display: flex;
 }
+.navbar__navlinks a {
+  color: var(--nav-color);
+}
 
 .navbar__navlinks ul {
   display: flex;
+  padding: 0 1rem;
 }
 
-.navbar__social ul {
-  display: flex;
+.navbar__navlinks li {
+  padding: 0 0.5rem;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  color: #141516;
 }

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -16,35 +20,43 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar">
-      <h1 class="navbar__title">Article</h1>
-      <div class="navbar__navlinks">
-        <div class="navbar__links">
-          <ul>
-            <li>Photography</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
+    <section class="container">
+      <nav class="navbar">
+        <h1 class="navbar__title">Antonio</h1>
+        <div class="navbar__navlinks">
+          <div class="navbar__links">
+            <ul>
+              <li><a href="#">Photography</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar__social">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="navbar__social">
-          <ul>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-            <li><i class="fab fa-facebook"></i></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
 
-    <!-- main section -->
-    <section class="section">
-      <h1 class="section__title">Photography</h1>
-      <p class="section__text">
-        A collection of my best photos. I specialize in lifestyle photography
-        from product shots to cars. All photos are edited using Adobe Lightroom
-        and Photoshop.
-      </p>
-      <button class="btn">Contact Me</button>
+      <!-- main section -->
+      <div class="main">
+        <h1 class="main__title">Photography</h1>
+        <p class="main__text">
+          A collection of my best photos. I specialize in lifestyle photography
+          from product shots to cars. All photos are edited using Adobe
+          Lightroom and Photoshop.
+        </p>
+        <button class="btn">Contact Me</button>
+      </div>
     </section>
 
     <!-- gallery collection grid (2) -->
