@@ -1,7 +1,7 @@
 :root {
   --primary-color: #141516;
   --secondary-color: #fff;
-  --nav-color: #bdc1c0;
+  --accent-color: #bdc1c0;
 }
 
 * {
@@ -12,6 +12,7 @@
 
 body {
   font-family: 'Catamaran', sans-serif;
+  line-height: 1.6;
 }
 
 ul {
@@ -25,6 +26,7 @@ a {
 .container {
   background-color: #fff;
   max-width: 1200px;
+  /* height: 100vh; */
   margin: auto;
   padding: 2rem;
 }
@@ -39,7 +41,7 @@ a {
   display: flex;
 }
 .navbar__navlinks a {
-  color: var(--nav-color);
+  color: var(--accent-color);
 }
 
 .navbar__navlinks ul {
@@ -54,4 +56,35 @@ a {
 .navbar h1 {
   font-size: 1.5rem;
   color: #141516;
+}
+
+.main {
+  padding: 5rem 0;
+  display: flex;
+}
+
+.main__title {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+}
+
+.main__text {
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.main__left {
+  width: 40%;
+}
+
+.btn {
+  display: inline;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #bdc1c0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
 }
