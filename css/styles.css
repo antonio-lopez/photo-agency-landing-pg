@@ -164,13 +164,13 @@ a {
 .info__text {
   color: #c1c1c1;
   max-width: 1200px;
-  min-height: 300px;
+  min-height: 400px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .info__title {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 /* .info__description {
@@ -233,4 +233,78 @@ a {
 }
 .scenario__text .scenario__description {
   font-size: 0.8rem;
+}
+
+.contact {
+  display: flex;
+  min-height: 500px;
+  background-color: #333333;
+  color: #c1c1c1;
+}
+
+.contact > * {
+  flex-basis: 100%;
+}
+
+.contact__text {
+  /* margin: 0 auto; */
+  padding: 2rem;
+}
+
+.contact__text h1 {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.contact__form {
+  /* position: relative; */
+  /* top: 60px; */
+  height: 350px;
+  min-width: 300px;
+  padding: 2rem;
+  /* padding: 40px; */
+  /* z-index: 100; */
+  /* justify-self: flex-end; */
+}
+
+.contact__form input[type='text'],
+.contact__form input[type='email'] {
+  background: #333333;
+  color: #c1c1c1;
+
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 80%;
+  padding: 1.2rem 0;
+  font-size: 16px;
+}
+
+.contact__form input:focus {
+  outline: none;
+}
+
+.contact__btn {
+  cursor: pointer;
+  padding: 1rem;
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.contact__right {
+  position: relative;
+}
+
+.contact__right > * {
+  position: absolute;
+  bottom: 0;
+  padding: 3rem;
+  /* padding-bottom: 3rem; */
+  /* margin-bottom: 3rem; */
+}
+
+.contact__address > h1 {
+  font-size: 2rem;
+}
+.contact__phone > h1 {
+  font-size: 2rem;
 }
